@@ -1,4 +1,4 @@
-package chapter04.caesarcipher;
+package chapter04.level1.caesarcipher;
 
 public class CaesarCipherAnswer {
     // c를 n만큼 밀어 반환

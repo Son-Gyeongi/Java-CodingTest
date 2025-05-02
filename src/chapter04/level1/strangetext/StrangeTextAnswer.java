@@ -1,4 +1,4 @@
-package chapter04.strangetext;
+package chapter04.level1.strangetext;
 
 /*
 페이지 114
