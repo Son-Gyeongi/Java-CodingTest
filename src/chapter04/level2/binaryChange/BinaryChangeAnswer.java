@@ -1,4 +1,4 @@
-package chapter04.level2;
+package chapter04.level2.binaryChange;
 
 import java.util.Arrays;
 
