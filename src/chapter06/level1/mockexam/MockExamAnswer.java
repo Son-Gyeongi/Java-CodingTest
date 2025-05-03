@@ -30,7 +30,6 @@ public class MockExamAnswer {
             for (int person = 0; person < 3; person++) {
                 int picked = getPicked(person, problem);
                 if (answer == picked) {
-                    corrects[person]++;
                     // max 업데이트하기
                     if (++corrects[person] > max) {
                         max = corrects[person];
