@@ -2,7 +2,7 @@ package chapter07.level1.kthnumber;
 
 import java.util.Arrays;
 
-public class KThNumber {
+public class KThNumberAnswer {
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
 
@@ -22,7 +22,7 @@ public class KThNumber {
     }
 
     public static void main(String[] args) {
-        KThNumber k = new KThNumber();
+        KThNumberAnswer k = new KThNumberAnswer();
         int[] array = {1, 5, 2, 6, 3, 7, 4};
         int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
         System.out.println(Arrays.toString(k.solution(array, commands)));
