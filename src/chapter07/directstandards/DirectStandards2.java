@@ -1,7 +1,6 @@
 package chapter07.directstandards;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 /*
 Comparator<T>를 이용하여 정렬하기
