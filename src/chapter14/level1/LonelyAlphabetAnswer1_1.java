@@ -1,8 +1,5 @@
 package chapter14.level1;
 
-import java.util.Map;
-import java.util.TreeMap;
-
 /*
 페이비 618
 PCCP 모의고사 1회
