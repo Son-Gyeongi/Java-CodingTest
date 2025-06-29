@@ -3,7 +3,7 @@ package chapter14.level1;
 import java.util.Arrays;
 
 /*
-페이비 640
+페이지 640
 PCCP 모의고사 2회
 실습용 로봇 - Level1
 내가 작성한 로직
