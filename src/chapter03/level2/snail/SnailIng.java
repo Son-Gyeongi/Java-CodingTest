@@ -5,11 +5,10 @@ import java.util.Arrays;
 /*
 페이지 72
 삼각 달팽이 - level2
-내 정답
+진행과정 2
  */
-public class Snail {
+public class SnailIng {
     public int[] solution(int n) {
-        // 1. 달팽이 배열 만들기
         int[][] tri = new int[n][n];
         int s=0; // 스위치(방향 전환)
         int x=0; // 행
@@ -48,23 +47,15 @@ public class Snail {
             }
             s++;
         }
-
-        // 2. 달팽이 배열에서 0행부터 n행까지 순차적으로 가져오기
-        int[] answer = new int[n*(n+1)/2];
-        int idx = 0;
-        for (int i=0;i<n;i++) {
-            for (int j=0;j<=i;j++) {
-                answer[idx++] = tri[i][j];
-            }
-        }
-
+        System.out.println(Arrays.deepToString(tri));
+        int[] answer = {};
         return answer;
     }
 
     public static void main(String[] args) {
-        Snail snailIng = new Snail();
+        SnailIng snailIng = new SnailIng();
         System.out.println(Arrays.toString(snailIng.solution(4)));
-        System.out.println(Arrays.toString(snailIng.solution(5)));
-        System.out.println(Arrays.toString(snailIng.solution(6)));
+//        System.out.println(Arrays.toString(snail.solution(5)));
+//        System.out.println(Arrays.toString(snail.solution(6)));
     }
 }
